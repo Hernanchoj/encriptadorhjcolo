@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Encriptador Hernan Colombres</title>
+	<link rel="stylesheet" href="reset.css">
+	<link rel="stylesheet" href="style.css">
+	<script src="script.js"></script>
+</head>
+<body>
+	 
+	<header class="logo">
+		
+		<img class="logoimg" src="https://pbs.twimg.com/media/FuzRPl-XgAMHtgp?format=png&name=small" alt="Logo de la aplicación">
+		
+		<h1 class="title">Encriptador de mensajes</h1>
+	</header>
+	
+	<main>
+		<section class="input-container">
+			<label for="inputTexto">Ingrese Mensaje:</label>
+			<input class="text-input" id="inputTexto" type="text" placeholder="Solo minúsculas y sin acentos">
+			</div>
+			<div class="botones">
+			<button type="button" id="btn-encriptar" onclick="encriptar()">Encriptar</button>
+			<button type="button" id="btn-desencriptar" onclick="desencriptar()">Desencriptar</button>
+			</section>
+	
+		<section class="output-container">
+			<img src="https://pbs.twimg.com/media/FvIQzGVWwAAnhgX?format=png&name=small" id="imgDer" alt="Imagen de ejemplo">
+			<h2 id="texto">Ningún mensaje fue encontrado</h2>
+			<textarea id="texto2" name="name" rows="8" cols="80" placeholder="Ingrese mensaje"></textarea>
+			<button type="button" id="btn-copiar" onclick="copiar()" >Copiar</button>
+		</section>
+	</main>
+<script>
+	var btn= document.querySelector("#btn-encriptar");
+	btn.onclick = encriptar;
+	var btn2=document.querySelector("#btn-desencriptar");
+	btn2.onclick = desencriptar;
+	var btn3=document.querySelector("#btn-copiar");
+	btn3.onclick = copiar;
+	
+</script>
+</body>
+</html>
+

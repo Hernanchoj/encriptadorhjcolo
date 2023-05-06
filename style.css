@@ -1,0 +1,270 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background: #667db6;  
+  background: -webkit-linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);  
+  background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6); 
+  
+  font-family: Arial, sans-serif;
+  font-size: 25px;
+  padding: 0;
+}
+
+
+.logo {
+ 
+  display: flex;
+  align-items: center;
+  margin: 2rem 2rem 4rem;
+}
+
+.logoimg {
+  width: 80px;
+  height: 80px;
+  margin-right: 2rem;
+}
+
+.title {
+  font-size: 3.2rem;
+  text-align: center;
+}
+
+
+main {
+  width: 100%;
+  height: 600px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.input-container {
+  background: #085078;  
+background: -webkit-linear-gradient(to right, #85D8CE, #085078);  
+background: linear-gradient(to right, #85D8CE, #085078); 
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem;
+  border-radius: 24px;
+}
+
+
+.text-input {
+  width: 90%;
+  height: 70%;
+  font-size: 2.4rem;
+  margin-bottom: 2rem;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  padding: 1rem;
+}
+
+.botones {
+  display: flex;
+  justify-content: center;
+}
+
+#btn-encriptar,
+#btn-desencriptar {
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.6rem;
+  margin: 0 1rem;
+  padding: 1rem 2rem;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+#btn-encriptar:hover,
+#btn-desencriptar:hover {
+  background-color: #2980b9;
+}
+
+
+.output-container {
+  background: #4e54c8; 
+background: -webkit-linear-gradient(to right, #8f94fb, #4e54c8); 
+background: linear-gradient(to right, #8f94fb, #4e54c8); 
+
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem;
+  border-radius: 24px;
+}
+
+#imgDer {
+  
+      max-width: 300px;
+    
+}
+
+#texto {
+  font-size: 3.2rem;
+  margin-bottom: 2rem;
+}
+
+#texto2 {
+  width: 80%;
+  height: 400px;
+  font-size: 1.6rem;
+  margin-bottom: 2rem;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  padding: 1rem;
+}
+
+#btn-copiar {
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.6rem;
+  margin: 0 1rem;
+  padding: 1rem 2rem;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+#btn-copiar:hover {
+  background-color: #2980b9;
+}
+@media screen and (max-width:767px) {
+  html {
+    font-size: 62.5%;
+  }
+  
+  body {
+    background: #667db6;
+    font-family: Arial, sans-serif;
+    font-size: 25px;
+    padding: 0;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    margin: 2rem 2rem 4rem;
+  }
+  
+  .logoimg {
+    width: 80px;
+    height: 80px;
+    margin-right: 2rem;
+  }
+  
+  .title {
+    font-size: 3.2rem;
+    text-align: center;
+  }
+  
+  main {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .input-container {
+    background: #085078;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+    border-radius: 24px;
+  }
+  
+  .text-input {
+    width: 90%;
+    height: 50%;
+    font-size: 2.4rem;
+    margin-bottom: 2rem;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    padding: 1rem;
+  }
+  
+  .botones {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #btn-encriptar,
+  #btn-desencriptar {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.6rem;
+    margin: 1rem 0;
+    padding: 1rem 2rem;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  
+  #btn-encriptar:hover,
+  #btn-desencriptar:hover {
+    background-color: #2980b9;
+  }
+  
+  .output-container {
+    background: #4e54c8;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+    border-radius: 24px;
+  }
+  
+  #imgDer {
+    max-width: 300px;
+  }
+  
+  #texto {
+    font-size: 3.2rem;
+    margin-bottom: 2rem;
+  }
+  
+  #texto2 {
+    width: 90%;
+    height: 200px;
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    padding: 1rem;
+  }
+  
+  #btn-copiar {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.6rem;
+    margin: 1rem 0;
+    padding: 1rem 2rem;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  
+  #btn-copiar:hover {
+    background-color: #2980b9;
+  }
+  
+}
