@@ -19,7 +19,7 @@ function desencriptar() {
                               .replace(/ober/ig, "o")
                               .replace(/enter/ig, "e");
   document.getElementById("texto").innerHTML = outputTexto;
-  document.getElementById("inputTexto").value = outputTexto;
+  document.getElementById("texto2").value = outputTexto;
 }
 
 function copiar() {
