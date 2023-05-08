@@ -11,7 +11,7 @@ function encriptar() {
 }
 
 function desencriptar() {
-  var inputTexto = document.getElementById("texto2").value;
+  var inputTexto = document.getElementById("inputTexto").value;
   var outputTexto = inputTexto.replace(/ufat/ig, "u")
                               .replace(/ai/ig, "a")
                               .replace(/imes/ig, "i")
