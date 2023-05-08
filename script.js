@@ -1,5 +1,4 @@
 
-
 function encriptar() {
   var inputTexto = document.getElementById("inputTexto").value;
   var outputTexto = inputTexto.replace(/e/ig, "enter")
